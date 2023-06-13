@@ -1,0 +1,6 @@
+#pyston-scons platform=linuxbsd linker=mold # custom_modules="../godex" #-Q TYPED_METHOD_BIND=1
+pyston-scons platform=linuxbsd use_llvm=yes linker=mold custom_modules="../godex"
+#pyston-scons platform=linuxbsd target=template_release arch=x86_64
+#pyston-scons platform=linuxbsd target=template_debug arch=x86_64
+#pyston-scons platform=web target=template_release
+#pyston-scons platform=web target=template_debug
